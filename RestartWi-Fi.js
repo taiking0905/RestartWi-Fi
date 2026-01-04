@@ -1,9 +1,8 @@
 // Scriptable用
 // ルータ再起動ボタン1つ化
-require('dotenv').config();
 
-const REBOOT_PAGE = process.env.REBOOT_PAGE;
-const REBOOT_POST = process.env.REBOOT_POST;
+const REBOOT_PAGE = "http://192.168.10.1/reboot.htm";
+const REBOOT_POST = " http://192.168.10.1/boafrm/formReboot";
 
 async function main() {
   try {
